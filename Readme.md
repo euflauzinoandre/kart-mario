@@ -1,0 +1,1 @@
+![alt text](/images/home/kart-mario.png)
