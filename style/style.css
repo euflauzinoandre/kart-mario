@@ -1,0 +1,202 @@
+@charset "UTF-8";
+@font-face {
+	font-family: 'kart-mario';
+	src: url('../fonts/RetroMario-Regular.otf') format('opentype');
+	font-weigth: normal;
+	font-size: normal;
+}
+
+* {
+	margin: 0px 0px;
+}
+
+:root {
+	--color1: red;
+	--color2: darkred;
+	--color3: white;
+	--color4: darkgoldenrod;
+	--color5: darkgreen;
+	--color6: darkorchid;
+	--color7: brown;
+	--color8: green;
+	--color9: orange;
+	--color10: rgb(255, 0, 179);
+	--color11: burlywood;
+	--color12: grey;
+	--color13: greenyellow;
+
+	--font-kartmario: kart-mario;
+}
+
+#pacman {
+	color: var(--color4);
+}
+
+#zelda {
+	color: var(--color5);
+}
+
+#animal-crossing {
+	color: var(--color2);
+}
+
+#splatoon {
+	color: var(--color6);
+}
+
+#select-driver {
+	background-color: white;
+	line-height: 1.5em;
+	padding: 0px 0px;
+	box-shadow: 15px 5px 10px #5a575218;
+	border-radius: 10px;
+	margin: 50px;
+}
+
+#racing-map {
+	text-align: right;
+	background-color: white;
+	line-height: 1.5em;
+	padding: 0px 0px;
+	box-shadow: 15px 5px 10px #5a575218;
+	border-radius: 10px;
+	margin: 50px;
+}
+
+#winner {
+	background-color: white;
+	line-height: 1.5em;
+	padding: 0px 0px;
+	box-shadow: 15px 5px 10px #5a575218;
+	border-radius: 10px;
+	margin: 50px;
+}
+
+.container {
+	min-width: 320px;
+	max-width: 800px;
+	margin: auto;
+}
+
+.video {
+	margin: 0px -20px 30px -20px;
+	padding: 20px;
+	padding-bottom: 58%;
+	position: relative;
+}
+
+.video > iframe {
+	box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.575);
+	position: absolute;
+	top: 5%;
+	left: 5%;
+	width: 90%;
+	height: 90%;
+}
+
+body {
+	background-color: rgba(128, 128, 128, 0.336);
+}
+
+header {
+	background-image: linear-gradient(to bottom, var(--color1), var(--color2));
+}
+
+header h1{
+	text-align: center;
+	text-shadow: 3px 3px rgba(0, 0, 0, 0.39);
+	color: var(--color3);
+	font-family: var(--font-kartmario);
+	font-size: 100px;
+}
+
+header nav {
+	padding: 10px;
+}
+
+nav a {
+	color: var(--color3);
+	text-decoration: none;
+	font-family: var(--font-kartmario);
+	font-size: 20px;
+	text-shadow: 3px 3px rgba(0, 0, 0, 0.39);
+	margin: 10px;
+	padding: 10px;
+	transition-duration: 0.5s;
+}
+
+nav a:hover {
+	background-color: var(--color7);
+	border-radius: 5px;
+}
+
+main h2 {
+	background-image: linear-gradient(to right, var(--color2), var(--color1), var(--color3));
+	color: var(--color3);
+	font-family: var(--font-kartmario);
+	font-size: 30px;
+	border-radius: 4px;
+	margin: 20px 0px;
+	padding: 15px;
+}
+
+main article{
+	background-color: white;
+	line-height: 1.5em;
+	padding: 20px;
+	box-shadow: 15px 5px 10px #5a575218;
+	border-radius: 10px;
+	margin: 50px;
+}
+
+main p {
+	margin: 5px 0px;
+	padding: 5px;
+	line-height: 1.2em;
+	text-align: justify;
+}
+
+main a::after {
+	content: "🔗";
+}
+
+main a {
+	text-decoration: none;
+	background-image: linear-gradient(to right, var(--color2), var(--color1));
+	color: var(--color3);
+}
+
+main a:hover {
+	background-image: linear-gradient(to right, var(--color2), var(--color1), var(--color3));
+	text-decoration: none;
+	background-color: var(--color1);
+	color: var(--color3);
+	padding: .2px;
+}
+
+section > p {
+	text-align: left;
+}
+
+section > img {
+	margin: 0px -7px;
+	padding: 0px;
+	background-color: var(--color3);
+	border-radius: 5px;
+	width: 400px;
+	height: 300px;
+}
+
+footer {
+	background-image: linear-gradient(to bottom, var(--color1), var(--color2));
+	font-family: var(--font-kartmario);
+	text-shadow: 3px 3px rgba(0, 0, 0, 0.39);
+	font-size: 20px;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 5px;
+	color: var(--color3);
+	text-align: center;
+}

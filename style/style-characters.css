@@ -1,0 +1,113 @@
+@charset "UTF-8";
+@font-face {
+	font-family: 'kart-mario';
+	src: url('../fonts/RetroMario-Regular.otf') format('opentype');
+	font-weigth: normal;
+	font-size: normal;
+}
+
+/* MARIO */
+#mario-gif{
+	border: 7px solid var(--color1);
+}
+
+#name-mario {
+	background-color: var(--color1);
+}
+
+/* LUIGI */
+#luigi-gif {
+	border: 7px solid var(--color8);
+}
+
+#name-luigi {
+	background-color: var(--color8);
+}
+
+/* BOWSER */
+#bowser-gif {
+	border: 7px solid var(--color9);
+}
+
+#name-bowser {
+	background-color: var(--color9);
+}
+
+/* DONKEY KONG */
+#donkey-kong-gif {
+	border: 7px solid var(--color7);
+}
+
+#name-donkey-kong {
+	background-color: var(--color7);
+}
+
+/* PEACH */
+#peach-gif{
+	border: 7px solid var(--color10);
+}
+
+#name-peach {
+	background-color: var(--color10);
+}
+
+/* KOOPA */
+#koopa-gif {
+	border: 7px solid var(--color11);
+}
+
+#name-koopa {
+	background-color: var(--color11);
+}
+
+/* TOAD */
+#toad-gif {
+	border: 7px solid var(--color12);
+}
+
+#name-toad {
+	background-color: var(--color12);
+}
+
+/* YOSHI */
+#yoshi-gif {
+	border: 7px solid var(--color13);
+}
+
+#name-yoshi {
+	background-color: var(--color13);
+}
+
+.image{
+	display: inline-block;
+	background-color: white;
+	background-size: auto;
+	border-radius: 5px;
+	box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.575);
+	height: 250px;
+	width: 200px;
+	margin: 15px 5px 50px 11px;
+}
+
+section {
+	margin: auto;
+	text-align: center;
+}
+
+img {
+	height: 250px;
+	width: 200px;
+	margin: auto;
+}
+
+figcaption {
+	color: white;
+	font-family: var(--font-kartmario);
+	font-size: 25px;
+	text-align: center;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	box-shadow: 10px 10px 10px rgba(128, 128, 128, 0.575);
+	margin: -2px -7px;
+	padding: 1px;
+}
